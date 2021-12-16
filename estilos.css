@@ -1,0 +1,1281 @@
+@import url('https://fonts.googleapis.com/css2?family=Parisienne&display=swap&family=Julius+Sans+One&family=Open+Sans+Condensed:wght@300&family=Unna:ital,wght@0,400;0,700;1,400&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Open Sans Condensed', sans-serif;
+}
+
+h1 {
+    font-family: 'Julius Sans One', sans-serif;
+}
+
+h2 {
+    font-family: 'Unna', serif;
+}
+
+h3 {
+  font-family: inherit;
+}
+
+h4 {
+    font-family: 'Parisienne', cursive;
+}
+
+#portada{
+    background-image: url(img/banner.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 1rem;
+    margin: 0 auto;
+    padding-bottom: 25rem;
+    height: 30rem;
+    box-shadow: -1px 1px 7px 0px black;
+}
+
+#portada-secundaria {
+    background-color: #b39985;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 1rem;
+    margin: 0 auto;
+    align-items: flex-start;
+}
+
+header img {
+    width: 80px;
+    order: 1;
+}
+
+#navprincipal {
+width: 100%;
+order: 3;
+padding-top: 1rem;
+}
+
+#navprincipal ul {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    align-items: initial;
+}
+
+#navsecundario {
+order: 2;
+display: flex;
+}
+
+#navsecundario img {
+    width: 40px;
+}
+
+.centrado {
+    width: 90%;
+    margin: 0 auto;
+}
+
+#sectionuno {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    align-items: center;
+    position: absolute;
+    top: 12rem;
+    right: 1%;
+    left: 1%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+a {
+    list-style: none;
+    text-decoration: none;
+    color: black;
+    padding: 0.3rem;
+    border-radius: 0.5rem;
+}
+
+a:hover {
+    background-color: #c3ae9e;
+    border-radius: 0.5rem;
+}
+
+.active a {
+    background-color: black;
+    color: white;
+    border-radius: 0.5rem;
+}
+
+.center {
+    text-align: center;
+}
+
+
+#articulosdeluno {
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    row-gap: 1rem;
+    background-color: #c3ae9e;
+    margin-top: 2rem;
+    min-height: 150px;
+    margin-left: auto;
+    margin-right: auto;
+    border-top: solid;
+    border-top-color: #b39985;
+}
+
+#articulosdeluno a:hover {
+    background-color: #000000;
+    color: white;
+    border-radius: 0.5rem;
+    width: 30%;
+}
+
+#lateral a {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+} 
+
+#articulosdeluno article:first-child {
+    display: flex;
+    flex-direction: column;
+}
+
+.articulo-dos {
+    display: none;
+}
+
+.articulo-tres {
+    display: none;
+}
+
+.flexcolumn {
+    display: flex;
+    flex-direction: column;
+}
+
+.sectiondos figure img {
+    width: 100%;
+}
+
+.sectiondos {
+    margin-top: 5rem;
+}
+
+.sectiondos div:nth-child(1) {
+    order: 4;
+    display: none;
+}
+
+.sectiondos div:nth-child(2) {
+    order: 5;
+}
+
+#lala-dos {
+    display: none;
+}
+
+.sectiondos div:nth-child(3) {
+    order: 1;
+
+}
+
+.sectiondos div:nth-child(4) {
+    order: 2;
+}
+
+.sectiondos div:nth-child(5) {
+    order: 3;
+}
+
+.sectiondos div:nth-child(6) {
+    order: 6;
+    display: none;
+}
+
+.lala {
+    position: relative;
+    padding: 1rem 0rem 1rem 0rem;
+}
+
+.textoarriba {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    position: absolute;
+    left: 0.2rem;
+    bottom: 1.8rem;
+    padding: 0.5rem;
+    width: 85%;
+    background-color: #aaa39e7c;
+    align-items: flex-start;
+}
+
+.textoarriba a{
+    background-color: black;
+    color: whitesmoke;
+    padding: 0.3rem;
+    font-size: small;
+    width: 30%;
+    border-radius: 0.5rem;
+}
+
+.lala a:hover {
+    background-color: #c3ae9e;
+    border-radius: 0.5rem;
+}
+
+#sectiontres a:hover {
+    background-color: #c3ae9e;
+    border-radius: 0.5rem;
+}
+
+#catalogo-novias a:hover {
+    background-color: #c3ae9e;
+    padding: 0.5rem;
+    border-radius: 0;
+}
+
+#alta-costura a:hover {
+    background-color: #c3ae9e;
+    padding: 0.5rem;
+    border-radius: 0;
+}
+
+footer img {
+    width: 40px;
+}
+
+#sectiontres {
+    background-color: #f5eee9;
+}
+
+article figure img{
+    width: 100%;
+    object-fit: contain;
+    background-color: white;
+}
+
+#sectiontres h2 {
+    text-align: center;
+    padding: 1rem 0rem 1rem 0rem;
+}
+
+#sectiontres a {
+    color: whitesmoke;
+    background-color: black;
+    position: absolute;
+    bottom: 1.8rem;
+    margin-bottom: 0.2rem;
+    padding: 1rem;
+    border-radius: 0.8rem;
+}
+
+#sectiontres article {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    position: relative;
+    padding-bottom: 1.5rem;
+}
+
+#sectiontres article figure {
+    flex: 1;
+    gap: 0.4rem;
+}
+
+#sectiontres article div {
+    flex: 1;
+
+}
+
+#estetica div {
+    justify-content: left;
+}
+
+#start h3{
+    justify-content: left;
+}
+
+.organizacion h3 {
+    justify-content: left;
+}
+
+#sectiontres p {
+    display: none;
+}
+
+#sectiontres #estetica {
+    display: none;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+#sectioncuatro {
+    display: flex;
+    flex-direction: column;
+    background-image: url(img/fondoformulario-100.jpg);
+    height: 30rem;
+    padding-top: 2rem;
+    gap: 1rem;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#sectioncuatro h2 {
+    width: 100%;
+    text-align: center;
+}
+
+.nombreyapellido {
+    gap: 0.5rem;
+    padding-bottom: 0.5rem;
+}
+
+form {
+    font-family: monospace;
+    text-transform: uppercase;
+}
+
+.servicios input {
+    height: 2rem;
+}
+
+input:hover {
+    background-color: #F7C5BE;
+}
+
+.servicios {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    padding-bottom: 0.5rem;
+}
+
+.novedades p {
+    width: 100%;
+}
+
+.consulta input {
+    width: 100%;
+}
+
+.ultimoform {
+    display: inline-flex;
+    align-items: center;
+    width: 100%;
+}
+
+.consultageneral {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.enviar {
+    position: absolute;
+    right: 0rem;
+    bottom: -2rem;
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+    background-color: #DDA5A3;
+}
+
+.espacio{
+    padding-right: 2.5rem;
+}
+
+.consulta {
+    padding-top: 1rem;
+}
+
+.fondo {
+    background-color: #b39985;
+}
+
+footer {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    box-shadow: 1px -1px 20px 0px black;
+}
+
+footer div {
+    display: flex;
+}
+
+footer :first-child {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    align-items: center;
+}
+
+.redes {
+    display: flex;
+    justify-content: space-around;
+    gap: 1rem;
+}
+
+#catalogo-novias img {
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+}
+
+#alta-costura a:nth-child(1) {
+    display: none;
+}
+
+#alta-costura a:nth-child(2) {
+    display: none;
+}
+
+#alta-costura {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 1rem;
+}
+
+#catalogo-novias h2, h3{
+    display: flex;
+    justify-content: center;
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;   
+}
+
+#alta-costura img {
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+}
+
+#cabezal {
+    background-image: url(img/banner.jpg);
+    width: 100%;
+    text-align: center;
+    background-size: cover;
+    padding: 1rem;
+    margin: 0 auto;
+    box-shadow: 0px 2px 20px 0px #5c5c5c;
+}
+
+#cabezal h1 {
+    display: flex;
+    justify-content: center;
+    padding-top: 10%;
+    padding-bottom: 10%;   
+}
+
+main {
+    padding-top: 2rem;
+    padding-bottom: 1rem;
+}
+
+main table {
+    border-spacing: 1rem;
+    border-collapse: collapse;
+}
+
+main table tr {
+    border-spacing: 1rem;
+    border-bottom: #b39985;
+    border-bottom-style: solid;
+
+}
+
+table {
+    width: 100%;
+}
+
+#tabla {
+    text-align: left;
+}
+
+#tabla h3 {
+    justify-content: start;
+}
+
+#vestido-sofia img,h2,h3,p {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+.novias a:nth-child(3) {
+    display: none;
+}
+
+#vestido-sofia figure img {
+    width: 100%;
+}
+
+#vestido-sofia figure:nth-child(2) {
+    display: none;
+}
+
+#vestido-sofia figure:nth-child(3) {
+    display: none;
+}
+
+#vestido-sofia figure:nth-child(4) {
+    display: none;
+}
+
+#vestido-sofia a {
+    background-color: black;
+    color: whitesmoke;
+    padding: 0.6rem;
+    font-size: small;
+    border-radius: 0.5rem;
+    width: 20%;
+    text-align: center;
+}
+
+#tabla {
+    padding-top: 1.5rem;
+    padding-bottom: 2rem;
+    width: 100%;
+}
+
+#telas h3 {
+    display: none;
+}
+
+#mas-fotos {
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+}
+
+.align h2 {
+    text-align: center;
+}
+
+#mas-fotos figure img {
+    width: 100%;
+}
+
+#mas-fotos figure:nth-child(3) {
+    display: none;
+}
+
+#mas-fotos figure:nth-child(4) {
+    display: none;
+}
+
+#mitad-sofi {
+    display: flex;
+    flex-direction: column;
+}
+
+#uno {
+    background-image: url(img/fondoanimacion.jpg);
+    background-size: auto 100%;
+    min-height: 100vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+}
+
+
+
+#error img {
+    width: 50%;
+    position: absolute;
+    bottom: 5rem;
+    left: 3rem;
+}
+
+#dos {
+    background-color: #f5eee9;
+    position: fixed;
+    display: block;
+    width: 30%;
+    top: 2rem;
+    padding: 1rem;
+    font-family: 'Parisienne', cursive;
+    font-size: large;
+    border-top-right-radius: 2rem;
+    border-bottom-right-radius: 2rem;
+    background-color: #e0a77aa6;
+}
+
+#dos p {
+    padding: 1rem;
+    min-height: fit-content;
+    animation: texto 4s ease-in-out 2s infinite;
+}
+
+@keyframes texto {
+    from {
+      margin-left: 100%;
+      width: 300%
+    }
+  
+    to {
+      margin-left: 0%;
+      width: 100%;
+    }
+}
+
+
+#error img{
+    border-width: 1px;
+    display: block;
+    width: 30%;
+    height: auto;
+    animation-duration: 5s;
+    animation-name: error; 
+    animation-timing-function: ease-in-out;  
+    
+} 
+
+
+@keyframes error {
+    from {
+      margin-top: 80%;
+      opacity: 100;
+      width: 300% 
+    }
+  
+    to {
+      margin-bottom: 20%;
+      width: 100%;
+      opacity: 0;
+    }
+}
+
+@media (min-width: 320px) {
+    body {
+      width: 100%;
+      flex-wrap: nowrap;
+      overflow: visible;
+    }
+}  
+
+
+@media screen and (min-width: 768px) {
+
+    #portada {
+        flex-direction: row;
+        justify-content: space-between;
+     
+    }
+
+    header {
+        order: 1;
+        align-items: center;
+    }
+
+    #navprincipal {
+        order: 2;
+        flex: 1;
+        padding-right: 4rem;
+        padding-left: 4rem;
+        font-size: large;
+    }
+
+    #navsecundario {
+        order: 3;
+        text-align: right;
+        justify-content: end;
+        gap: 1rem;
+    }
+    #lateral {
+        text-align: start;
+        padding-left: 1rem;
+        width: 80%;
+    }
+
+    #articulosdeluno {
+        flex-direction: row;
+    }
+
+    .articulo-dos {
+        display: flex;
+        flex-direction: column;
+        padding-left: 1rem;
+        flex: 1;
+        justify-content: space-between;
+    }
+
+    .articulo-tres {
+        display: none;
+    }
+
+    #articulosdeluno article:first-child {
+        padding-right: 1rem;
+        border-right-style: solid;
+        border-right-color: black;
+        flex: 1;
+        justify-content: space-between;
+    }
+
+    .sectiondos div:nth-child(1) {
+        order: 1;
+        display: grid;
+    }
+    
+    .sectiondos div:nth-child(2) {
+        order: 5;
+    }
+    
+    #lala-dos {
+        display: none;
+    }
+    
+    #lateral a {
+        display: flex;
+        width: 100%;
+        justify-content: left;
+    } 
+
+    .sectiondos div:nth-child(3) {
+        order: 2;
+    
+    }
+    
+    .sectiondos div:nth-child(4) {
+        order: 3;
+    }
+    
+    .sectiondos div:nth-child(5) {
+        order: 4;
+        display: none;
+    }
+    
+    .sectiondos div:nth-child(6) {
+        order: 6;
+        display: none;
+    }
+    
+    .sectiondos {
+        display: grid;
+        grid-template-columns: 3fr;
+        grid-template-rows: 3fr;
+        grid-template-columns: auto;
+        gap: 1rem;
+    }
+
+    .sectiondos div:nth-child(1) {
+        grid-column: 1/3;
+        grid-row: 1/2;
+    }
+
+    .sectiondos img:nth-child(2) {
+        object-position: top;
+        
+    }
+
+    .sectiondos div:nth-child(2) {
+        grid-column: 1/2;
+        grid-row: 2/3;
+        
+    }
+
+    .sectiondos div:nth-child(3) {
+        grid-column: 2/3;
+        grid-row: 2/3;
+    } 
+    
+
+    #sectiontres .monedas p{
+        display: flex;
+        flex-direction: column;
+    }
+
+    #sectiontres .organizacion p{
+        display: flex;
+        flex-direction: column;
+    }
+
+
+    .servicios {
+        width: 48%;
+    }
+
+    .nombreyapellido {
+        width: 48%;
+    }
+
+    .novedades {
+        display: flex;
+        flex-direction: column;
+        width: 48%;
+        align-items: center;
+    }
+
+    .novedades p {
+        display: flex;
+        padding-bottom: 0.5rem;
+        width: 100%;
+    }
+
+    .inline {
+        display: inline-flex;
+        flex-direction: row;
+        justify-content: start;
+        align-items: center;
+        width: 100%;
+        gap: 2rem;
+    }
+
+    /* #sectioncuatro {
+        height: 40vh;
+    } */
+
+    .ultimoform {
+        flex-direction: row;
+        width: 100%;
+    }
+ 
+   
+    .flexraw {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .novias {
+        display: flex;
+        flex-direction: row;
+        gap: 1rem;
+    }
+
+    #alta-costura {
+        display: grid;
+        grid-template-rows: 1fr 1fr;
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 1rem;
+    }
+
+    table {
+        width: 100%;
+    }
+
+    #vestido-sofia {
+        display: flex;
+        flex-direction: row;
+        gap: 2rem;
+        padding-bottom: 3rem;
+    }
+
+    #vestido-sofia figure img {
+        display: flex;
+        flex-direction: row;
+    }
+
+    #sofi {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr;
+        column-gap: 1rem;
+    }
+
+    #sofi figure:first-child {
+        grid-column: 1/4;
+        grid-row: 1/3;
+    }
+
+    #sofi figure:nth-child(2) {
+        display: grid;
+        grid-column: 1/2;
+        grid-row: 3/4;
+    }
+
+    #sofi figure:nth-child(3) {
+        display: grid;
+        grid-column: 2/3;
+        grid-row: 3/4;
+    }
+
+    #sofi figure:nth-child(4) {
+        display: grid;
+        grid-column: 3/4;
+        grid-row: 3/4;
+    }
+
+    #mas-fotos {
+        display: flex;
+        justify-content: space-between;
+        gap: 1rem;
+    }
+    
+    .align h2 {
+        text-align: center;
+    }
+    
+    #mas-fotos figure img {
+        width: 100%;
+    }
+
+
+    #mas-fotos figure:nth-child(1) {
+        display: flex;
+    }
+    
+
+    #mas-fotos figure:nth-child(2) {
+        display: flex;
+    }
+
+    #mas-fotos figure:nth-child(3) {
+        display: flex;
+    }
+
+    #mitad-sofi {
+        display: flex;
+        flex-direction: column;
+    }
+
+}
+
+@media screen and (min-width: 992px) {
+
+    header {
+        order: 1;
+        flex: 2;
+    }
+
+    #portada {
+        align-items: center;
+    }
+
+    #portada-secundaria {
+        align-items: center;
+    }
+
+    #navprincipal {
+        padding-right: 2rem;
+        font-size: x-large;
+        padding-top: 0;
+    }
+
+    #navprincipal ul li{
+        padding-left: 0.5rem;
+        padding-right: 0.5rem;
+    }
+
+    #articulosdeluno article:nth-child(3) {
+        display: flex;
+        flex-direction: column;
+        border-left-style: solid;
+        border-left-color: black;
+        padding-left: 1rem;
+        flex: 1;
+        justify-content: space-between;
+    } 
+
+    #lateral {
+        width: 60%;
+    }
+
+    #sectionuno {
+        width: 55%;
+        position: absolute;
+        top: 10rem;
+    }
+
+    .sectiondos {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-template-rows: 3fr;
+        align-items: flex-start;
+        gap: 1.5rem;
+        margin-bottom: 2.5rem;
+        position: relative;
+        top: 8rem; 
+    }
+
+    #lala-dos {
+        display: flex;
+        object-fit: cover;
+    }
+
+    .sectiondos figure {
+        display: flex;
+    }
+
+    .textoarriba {
+        padding: 0.1rem;
+        font-size: smaller;
+        bottom: 0.2rem;
+        left: 0.5rem;    
+    }
+
+    .lala {
+        padding: 0px;
+        margin: 0px;
+    }
+
+    .sectiondos div:nth-child(1) {
+        grid-column: 1/3;
+        grid-row: 1/2;
+    }
+
+    .sectiondos div:nth-child(2) {
+        grid-column: 3/4;
+        grid-row: 1/3;
+        
+    }
+
+    .sectiondos div:nth-child(3) {
+        grid-column: 4/5;
+        grid-row: 1/2;
+    } 
+
+     .sectiondos div:nth-child(4) {
+         display: grid;
+        grid-column: 1/2;
+        grid-row: 2/3;
+    }
+
+    .sectiondos div:nth-child(5) {
+        display: grid;
+        grid-column: 2/3;
+        grid-row: 2/3;
+        
+    }
+
+    .sectiondos div:nth-child(6) {
+        display: grid;
+        grid-column: 4/5;
+        grid-row: 2/3;
+        
+    }
+
+    #sectiontres {
+        display: flex;
+        flex-direction: column;
+    }
+
+   .ups {
+        display: flex;
+        flex-direction: row;
+        gap: 1rem;
+        position: relative;
+        padding-bottom: 1.5rem;
+    }
+    
+    #sectiontres article {
+        flex-direction: column;
+        justify-content: space-between;
+        gap: 1rem;
+    }
+
+    .monedas {
+        flex: 1;
+    }
+
+    .organizacion {
+        flex: 1;
+    }
+
+    #estetica {
+        flex: 1;
+    }
+
+    #sectiontres article figure {
+        flex: 1;
+        gap: 0.4rem;
+    }
+    
+    #sectiontres article div {
+        flex: 1;
+    
+    }
+
+    .monedas div {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .monedas a {
+        width: 25%;
+        text-align: center;
+    }
+
+    .organizacion div {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+
+    }
+
+    .organizacion a {
+        width: 25%;
+        text-align: center;
+    }
+    
+    #estetica div {
+        display: flex;
+        flex-direction: column;
+        justify-content: left;
+        justify-content: space-between;
+    }
+    
+    #estetica a {
+        width: 25%;
+        text-align: center;
+    }
+
+    #estetica h3{
+        justify-content: left;
+    }
+
+    #start h3{
+        justify-content: left;
+    }
+    
+    .organizacion h3 {
+        justify-content: left;
+    }
+    
+    #sectiontres p {
+        display: flex;
+    }
+    
+    #sectiontres #estetica {
+        display: flex;
+    }
+
+    #sectiontres a {
+        position: initial;
+        margin-top: 1rem;
+    }
+
+
+    #sectiontres {
+        position: relative;
+        top: 8rem;
+    }
+
+    #sectioncuatro {
+        position: relative;
+        top: 10rem;
+    }
+
+    footer {
+        position: relative;
+        top: 8rem;
+    }
+
+    footer :first-child {
+        display:flex;
+        flex-direction: row;
+        gap: 1rem;
+        align-items: center;
+        justify-content: space-between;
+    }
+    
+    .redes {
+        display: flex;
+        justify-content: space-around;
+        gap: 1rem;
+    }
+
+    #alta-costura a:nth-child(1) {
+        display: flex;
+    }
+    
+    #alta-costura a:nth-child(2) {
+        display: flex;
+    }
+    
+    #alta-costura {
+        display: grid;
+        grid-template-rows: 1fr 1fr;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        gap: 1rem;
+    }
+
+    .novias a:nth-child(3) {
+        display: flex;
+    }
+
+    #vestido-sofia div:nth-child(3) {
+        display: flex;
+    }
+
+    #sofi {
+        width: 40%;
+    }
+
+    #mitad-sofi {
+        width: 40%;
+        display: flex;
+        flex-direction: row;
+    }
+    
+    #mitad-sofi h2 p{
+        width: 100%;
+        flex-wrap: wrap;
+
+    }
+
+    #telas h3 {
+        display: flex;
+    }
+
+    #telas {
+        display: flex;
+        flex-direction: column;
+        width: 15%;
+    }
+
+    #mas-fotos figure:nth-child(4) {
+        display: flex;
+    }
+
+    #tabla {
+        display: flex;
+        flex-direction: row;
+        column-gap: 2rem;
+    }
+
+    #mitad-sofi a {
+        width: 100%;
+    }
+
+    .detalles {
+        padding-left: 1.5rem;
+        width: 35%;
+    }
+
+    #vestido-sofia figure:nth-child(2) {
+        display: flex;
+    }
+
+    #vestido-sofia figure:nth-child(3) {
+        display: flex;
+    }
+
+    #vestido-sofia figure:nth-child(4) {
+        display: flex;
+    }
+
+    #sofi {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+        column-gap: 1rem;
+    }
+
+}
